@@ -6,10 +6,12 @@ import static org.junit.Assert.assertEquals;
 public class RadioTest {
 
     Radio radio;
+    Stereo stereo;
 
     @Before
     public void before(){
         radio = new Radio("Toshiba", "Ace1");
+        stereo = new Stereo( "Blue Stereo");
     }
 
     @Test
